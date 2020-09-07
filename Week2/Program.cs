@@ -10,13 +10,13 @@ namespace Week2
             string Name;
             Name = Console.ReadLine();
             Console.WriteLine("Hello, " + Name);
-            Console.WriteLine("When were you born, " + Name + "?");
+            Console.WriteLine("How old are you, " + Name + "?");
             string UserInput;
             UserInput = Console.ReadLine();
-            int Year;
-            Year = Int32.Parse(UserInput);
-            int Age = 2020 - Year;
-            Console.WriteLine("You are " + Age + " years old.");
+            int Age;
+            Age = Int32.Parse(UserInput);
+            int Year = 2020 - Age;
+            Console.WriteLine("You were born in " + Year + ".");
         }
     }
 }
